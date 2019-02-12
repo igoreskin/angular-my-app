@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  sentence: string="This is a test sentence";
+  calc: number=100/4;
+  getTitle(): string {
+    return this.title
+  }
+  numbers(a, b): number {
+    return a * b
+  }
 }
