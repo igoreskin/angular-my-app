@@ -25,3 +25,7 @@
 <p> {{numbers(5, 6)}} </p>
 <p [innerText] = "title"></p>
 <p [innerText] = "calc"></p>
+<button (click)='buttonClicked()'>Click here!</button>
+<p>Button clicked {{count}} times</p>
+<input type="text" [(ngModel)]='name' />
+You have entered {{name}}
