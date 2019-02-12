@@ -29,3 +29,10 @@
 <p>Button clicked {{count}} times</p>
 <input type="text" [(ngModel)]='name' />
 You have entered {{name}}
+<br /><br />
+<div *ngIf="2 * 2 === 4">
+  This is shown if condition is true
+</div><br />
+<div [ngClass]="'red size20'">
+  Red Text with Size 20px
+</div>
