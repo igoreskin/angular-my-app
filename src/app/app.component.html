@@ -17,6 +17,9 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
+
+<button (click)="increment()">Increment</button>
+
 <p>This is a paragraph</p>
 <p>{{sentence}}</p>
 <p>{{2*5}}</p>
@@ -35,4 +38,8 @@ You have entered {{name}}
 </div><br />
 <div [ngClass]="'red size20'">
   Red Text with Size 20px
+</div><br />
+<div [ngStyle] = "{'color': 'blue', 'font-size': '24px', 'font-weight': 'bold'}">
+  This text should be blue
 </div>
+<div><app-test></app-test></div>
