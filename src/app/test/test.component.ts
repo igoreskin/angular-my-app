@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  num: number = 5.7765;
+
   constructor() { }
 
   ngOnInit() {

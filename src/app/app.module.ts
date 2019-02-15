@@ -6,12 +6,14 @@ import { TestComponent } from './test/test.component';
 
 import { FormsModule } from '@angular/forms';
 import { ChildComponent } from './child/child.component';
+import { TempConverterPipe } from './temp-converter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    ChildComponent
+    ChildComponent,
+    TempConverterPipe
   ],
   imports: [
     BrowserModule,
